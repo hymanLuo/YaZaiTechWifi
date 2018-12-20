@@ -1,0 +1,63 @@
+//
+//  PrefixHeader.pch
+//  YaZaiTechWifi
+//
+//  Created by cheng luo on 2018/12/4.
+//  Copyright © 2018年 homeSalf. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//屏幕比例
+//#define YZSCREEN_WIDTH_SCALE     ([UIScreen mainScreen].bounds.size.width)/375
+//#define YZSCREEN_HEIGHT_SCALE    ([UIScreen mainScreen].bounds.size.height)/667
+#define YZSCREEN_WIDTH           [UIScreen mainScreen].bounds.size.width
+#define YZSCREEN_HEIGHT          [UIScreen mainScreen].bounds.size.height
+//导航栏高度
+#define NavAndStatusHight  self.navigationController.navigationBar.frame.size.height+[[UIApplication sharedApplication] statusBarFrame].size.height
+
+//
+#define MainBgColor             [UIColor colorWithRed:140/255.0f green:0/255.0f blue:173/255.0f alpha:1.0f]
+
+//NSUserdefault 存储的key
+//尿湿提醒
+#define YZ_Humidity @"YZ_Humidity"
+#define YZ_IsHumidityAlerm @"YZ_IsHumidityAlerm"
+//踢被子提醒
+#define YZ_KickTemperature @"YZ_KickTemperature"
+#define YZ_IsKickTemperatureAlerm @"YZ_IsKickTemperatureAlerm"
+//睡醒提醒
+#define YZ_WakeupNumber @"YZ_WakeupNumber"
+#define YZ_IsWakeupAlerm @"YZ_IsWakeupAlerm"
+//睡姿提醒
+#define YZ_IsPositionDownDangerAlerm @"YZ_IsPositionDownDangerAlerm"
+#define YZ_IsWakeupDangerAlerm @"YZ_IsWakeupDangerAlerm"
+//婴儿裤码
+#define YZ_TrouserSize @"YZ_TrouserSize"
+//音量
+#define YZ_VolumeValue @"YZ_VolumeValue"
+
+//通知的key
+#define YaZaiTrouserSizeChange @"YaZaiTrouserSizeChange" //裤码发生变化;
+
+//从服务器获取到数据给的通知；
+#define YaZaiGetServerDataSuccess @"YaZaiGetServerDataSuccess"
+
+//闹钟关闭的通知字串;
+#define YaZaiAlermDataChange @"YaZaiAlermDataChange"
+
+//成功连接上设备的key；
+#define YaZaiConnectDeviceSuccess @"YaZaiConnectDeviceSuccess"
+
+#define YaZaiDiscoverNewBluetoothDevice @"YaZaiDiscoverNewBluetoothDevice"
+
+//向服务器发送获取设备数据的URL
+#define YaZaiGetDataUrlHeader @"http://203.195.193.246:8080/HomsafeYar/interface_capacitor/getCapacitorInfo.html?Index=getCapacitorDada&SerialNumber="
+//向服务器发送设置设备数据的URL
+#define YaZaiSetDataUrlHeader @"http://203.195.193.246:8080/HomsafeYar/interface_capacitor/postCapDevCmd.html"
+
+#endif /* PrefixHeader_pch */

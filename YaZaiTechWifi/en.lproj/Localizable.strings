@@ -1,0 +1,65 @@
+/* 
+  Localizable.strings
+  YaZaiTechWifi
+
+  Created by cheng luo on 2018/12/18.
+  Copyright © 2018年 homeSalf. All rights reserved.
+*/
+//Urine monitoring
+"urine_moni" = "Urine monitoring";
+
+"position_moni" = "Position monitoring";
+
+"setting" = "Setting";
+
+"urine_show" = "URINE MONITORING:";
+
+"not_wifi_device" = "If the Wifi device is not connected, please go to the configuration!";
+
+"ok" = "OK";
+
+//Position
+"left_sleep" = "Left side sleep";
+
+"right_sleep" = "Right side sleep";
+
+"down_sleep" = "Prostrate sleep";
+
+"sit_up" = "Get up";
+
+"up_sleep" = "Back sleep";
+
+//setting
+"battery_level" = "Battery level";
+
+"wetness_reminder" = "Wetness reminder";
+
+"dry" = "Dry";
+
+"wet" = "Wet";
+
+"kick_reminder" = "Kick quilt reminder";
+
+"temperature" = "Temperature";
+
+"wake_up_reminder" = "Wake up reminder";
+
+"activites" = "Activites";
+
+"sleep_position_reminder" = "Sleeping position reminder";
+
+"risk_of_suffocation" = "Risk of suffocation";
+
+"risk_of_falling" = "Risk of falling";
+
+"diaper_size" = "Diaper size";
+
+"bud_instructions" = "Bud instructions";
+
+"privacy_policy" = "Privacy Policy";
+
+"wifi_connection" = "WIFI connection";
+
+"close_reminder" = "Close reminder";
+
+"remind_later" = "Remind later";

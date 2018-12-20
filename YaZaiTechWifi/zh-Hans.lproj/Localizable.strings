@@ -1,0 +1,68 @@
+/* 
+  Localizable.strings
+  YaZaiTechWifi
+
+  Created by cheng luo on 2018/12/18.
+  Copyright © 2018年 homeSalf. All rights reserved.
+*/
+//Urine monitoring
+"urine_moni" = "尿尿检测";
+
+"position_moni" = "睡姿检测";
+
+"setting" = "设置";
+
+"urine_show" = "预测尿量:";
+
+"not_wifi_device" = "检测到未关联Wifi设备，请去设置配置!";
+
+"ok" = "确定";
+
+//Position
+"left_sleep" = "宝宝左躺";
+
+"right_sleep" = "宝宝右躺";
+
+"down_sleep" = "宝宝趴着";
+
+"sit_up" = "宝宝坐着";
+
+"up_sleep" = "宝宝仰睡";
+
+//setting
+"battery_level" = "电池电量";
+
+"wetness_reminder" = "尿湿提醒";
+
+"dry" = "干";
+
+"wet" = "湿";
+
+"kick_reminder" = "踢被子提醒";
+
+"temperature" = "温度";
+
+"wake_up_reminder" = "睡醒提醒";
+
+"activites" = "";
+
+"times" = "次";
+
+"sleep_position_reminder" = "睡姿提醒";
+
+"risk_of_suffocation" = "趴睡窒息危险";
+
+"risk_of_falling" = "起床摔倒危险";
+
+"diaper_size" = "婴儿裤码数";
+
+"bud_instructions" = "芽仔使用说明";
+
+"privacy_policy" = "隐私政策";
+
+"wifi_connection" = "WIFI连接";
+
+"close_reminder" = "关闭提醒";
+
+"remind_later" = "稍后提醒";
+

@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7724B78C21C8C65900AE585D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7724B78E21C8C65900AE585D /* Localizable.strings */; };
+		7726312721B75AB800579C88 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726312621B75AB800579C88 /* UIView+Frame.m */; };
+		7726312A21B768AB00579C88 /* UIColor+PWHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726312821B768AB00579C88 /* UIColor+PWHex.m */; };
+		7726312D21B7695D00579C88 /* YZSetupViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726312C21B7695C00579C88 /* YZSetupViewCell.m */; };
+		7726313021B7706500579C88 /* YZWifiConntionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726312F21B7706500579C88 /* YZWifiConntionViewController.m */; };
+		7726313321B79CFB00579C88 /* BLEManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726313221B79CFB00579C88 /* BLEManage.m */; };
+		7726313A21B7DB9800579C88 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726313821B7DB9800579C88 /* GCDAsyncSocket.m */; };
+		7726313B21B7DB9800579C88 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 7726313921B7DB9800579C88 /* GCDAsyncUdpSocket.m */; };
+		772DF35B21C773CD00E90DA9 /* YZPolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 772DF35A21C773CD00E90DA9 /* YZPolicyViewController.m */; };
+		77355A2F21B9256F0083B1E1 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 77110DC321B9248100E70BCC /* AFURLResponseSerialization.m */; };
+		77355A3021B9256F0083B1E1 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77110DC421B9248100E70BCC /* AFHTTPSessionManager.m */; };
+		77355A3121B9256F0083B1E1 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77110DC621B9248100E70BCC /* AFURLSessionManager.m */; };
+		77355A3221B9256F0083B1E1 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 77110DC721B9248100E70BCC /* AFURLRequestSerialization.m */; };
+		77355A3321B9256F0083B1E1 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 77110DC921B9248100E70BCC /* AFNetworkReachabilityManager.m */; };
+		77355A3421B9256F0083B1E1 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77110DCA21B9248100E70BCC /* AFSecurityPolicy.m */; };
+		7754D17B21B672AC00A06B41 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754D17A21B672AC00A06B41 /* AppDelegate.m */; };
+		7754D17E21B672AC00A06B41 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754D17D21B672AC00A06B41 /* ViewController.m */; };
+		7754D18121B672AC00A06B41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7754D17F21B672AC00A06B41 /* Main.storyboard */; };
+		7754D18321B672AE00A06B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7754D18221B672AE00A06B41 /* Assets.xcassets */; };
+		7754D18621B672AE00A06B41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7754D18421B672AE00A06B41 /* LaunchScreen.storyboard */; };
+		7754D18921B672AE00A06B41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754D18821B672AE00A06B41 /* main.m */; };
+		7754D19321B672AE00A06B41 /* YaZaiTechWifiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754D19221B672AE00A06B41 /* YaZaiTechWifiTests.m */; };
+		7754D19E21B672AE00A06B41 /* YaZaiTechWifiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754D19D21B672AE00A06B41 /* YaZaiTechWifiUITests.m */; };
+		7754D1AE21B67B3800A06B41 /* YZSleepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754D1AD21B67B3800A06B41 /* YZSleepViewController.m */; };
+		7754D1B421B67B7100A06B41 /* YZSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754D1B321B67B7100A06B41 /* YZSetupViewController.m */; };
+		7754D1B721B67BC800A06B41 /* YZUrienViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754D1B621B67BC800A06B41 /* YZUrienViewController.m */; };
+		7754D1BB21B681FE00A06B41 /* YZTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754D1BA21B681FE00A06B41 /* YZTool.m */; };
+		7754D1C021B6862100A06B41 /* Globaldata.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754D1BF21B6862100A06B41 /* Globaldata.m */; };
+		7754D1C321B68C7100A06B41 /* SleepData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754D1C221B68C7100A06B41 /* SleepData.m */; };
+		7754D1C721B68CE900A06B41 /* UGDesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7754D1C521B68CE900A06B41 /* UGDesView.m */; };
+		7761358021BB6835009B8100 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7761357F21BB6835009B8100 /* song.mp3 */; };
+		7761358321BB6C58009B8100 /* YZAudioPlayerManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7761358221BB6C58009B8100 /* YZAudioPlayerManage.m */; };
+		7761358621BBA2C1009B8100 /* YZServerDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7761358521BBA2C1009B8100 /* YZServerDataModel.m */; };
+		7767CC7C21CB2E5C0038416B /* pomodoSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7767CC7B21CB2E5C0038416B /* pomodoSound.mp3 */; };
+		779610F921C0B052005E6A72 /* CustomAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 779610F821C0B051005E6A72 /* CustomAlertView.m */; };
+		779610FF21C10A95005E6A72 /* YZNetworkManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 779610FD21C10A95005E6A72 /* YZNetworkManage.m */; };
+		77C3061721C22CFB00C54B95 /* YZDirectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C3061621C22CFB00C54B95 /* YZDirectionViewController.m */; };
+		77C3061921C22E2000C54B95 /* help_doc.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C3061821C22E1F00C54B95 /* help_doc.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7754D18F21B672AE00A06B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7754D16E21B672AC00A06B41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7754D17521B672AC00A06B41;
+			remoteInfo = YaZaiTechWifi;
+		};
+		7754D19A21B672AE00A06B41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7754D16E21B672AC00A06B41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7754D17521B672AC00A06B41;
+			remoteInfo = YaZaiTechWifi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77110DBF21B9248100E70BCC /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		77110DC021B9248100E70BCC /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		77110DC121B9248100E70BCC /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		77110DC221B9248100E70BCC /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		77110DC321B9248100E70BCC /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		77110DC421B9248100E70BCC /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		77110DC521B9248100E70BCC /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		77110DC621B9248100E70BCC /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		77110DC721B9248100E70BCC /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		77110DC821B9248100E70BCC /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		77110DC921B9248100E70BCC /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		77110DCA21B9248100E70BCC /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		77110DCB21B9248100E70BCC /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		77110DCC21B9248100E70BCC /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		7724B78A21C8C63000AE585D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		7724B78B21C8C63000AE585D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7724B78D21C8C65900AE585D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7724B78F21C8C65C00AE585D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7726312521B75AB800579C88 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		7726312621B75AB800579C88 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		7726312821B768AB00579C88 /* UIColor+PWHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PWHex.m"; sourceTree = "<group>"; };
+		7726312921B768AB00579C88 /* UIColor+PWHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PWHex.h"; sourceTree = "<group>"; };
+		7726312B21B7695C00579C88 /* YZSetupViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZSetupViewCell.h; sourceTree = "<group>"; };
+		7726312C21B7695C00579C88 /* YZSetupViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZSetupViewCell.m; sourceTree = "<group>"; };
+		7726312E21B7706500579C88 /* YZWifiConntionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZWifiConntionViewController.h; sourceTree = "<group>"; };
+		7726312F21B7706500579C88 /* YZWifiConntionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZWifiConntionViewController.m; sourceTree = "<group>"; };
+		7726313121B79CFB00579C88 /* BLEManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEManage.h; sourceTree = "<group>"; };
+		7726313221B79CFB00579C88 /* BLEManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEManage.m; sourceTree = "<group>"; };
+		7726313621B7DB9800579C88 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		7726313721B7DB9800579C88 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		7726313821B7DB9800579C88 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		7726313921B7DB9800579C88 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		772DF35921C773CD00E90DA9 /* YZPolicyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPolicyViewController.h; sourceTree = "<group>"; };
+		772DF35A21C773CD00E90DA9 /* YZPolicyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPolicyViewController.m; sourceTree = "<group>"; };
+		7754D17621B672AC00A06B41 /* YaZaiTechWifi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YaZaiTechWifi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7754D17921B672AC00A06B41 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7754D17A21B672AC00A06B41 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7754D17C21B672AC00A06B41 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7754D17D21B672AC00A06B41 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7754D18021B672AC00A06B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7754D18221B672AE00A06B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7754D18521B672AE00A06B41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7754D18721B672AE00A06B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7754D18821B672AE00A06B41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7754D18E21B672AE00A06B41 /* YaZaiTechWifiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YaZaiTechWifiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7754D19221B672AE00A06B41 /* YaZaiTechWifiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YaZaiTechWifiTests.m; sourceTree = "<group>"; };
+		7754D19421B672AE00A06B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7754D19921B672AE00A06B41 /* YaZaiTechWifiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YaZaiTechWifiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7754D19D21B672AE00A06B41 /* YaZaiTechWifiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YaZaiTechWifiUITests.m; sourceTree = "<group>"; };
+		7754D19F21B672AE00A06B41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7754D1AC21B67B3800A06B41 /* YZSleepViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSleepViewController.h; sourceTree = "<group>"; };
+		7754D1AD21B67B3800A06B41 /* YZSleepViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSleepViewController.m; sourceTree = "<group>"; };
+		7754D1B221B67B7100A06B41 /* YZSetupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSetupViewController.h; sourceTree = "<group>"; };
+		7754D1B321B67B7100A06B41 /* YZSetupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSetupViewController.m; sourceTree = "<group>"; };
+		7754D1B521B67BC800A06B41 /* YZUrienViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZUrienViewController.h; sourceTree = "<group>"; };
+		7754D1B621B67BC800A06B41 /* YZUrienViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZUrienViewController.m; sourceTree = "<group>"; };
+		7754D1B821B67EBD00A06B41 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7754D1B921B681FE00A06B41 /* YZTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZTool.h; sourceTree = "<group>"; };
+		7754D1BA21B681FE00A06B41 /* YZTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZTool.m; sourceTree = "<group>"; };
+		7754D1BE21B6862100A06B41 /* Globaldata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globaldata.h; sourceTree = "<group>"; };
+		7754D1BF21B6862100A06B41 /* Globaldata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Globaldata.m; sourceTree = "<group>"; };
+		7754D1C121B68C7100A06B41 /* SleepData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepData.h; sourceTree = "<group>"; };
+		7754D1C221B68C7100A06B41 /* SleepData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepData.m; sourceTree = "<group>"; };
+		7754D1C521B68CE900A06B41 /* UGDesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UGDesView.m; sourceTree = "<group>"; };
+		7754D1C621B68CE900A06B41 /* UGDesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UGDesView.h; sourceTree = "<group>"; };
+		7761357F21BB6835009B8100 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		7761358121BB6C58009B8100 /* YZAudioPlayerManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZAudioPlayerManage.h; sourceTree = "<group>"; };
+		7761358221BB6C58009B8100 /* YZAudioPlayerManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAudioPlayerManage.m; sourceTree = "<group>"; };
+		7761358421BBA2C1009B8100 /* YZServerDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZServerDataModel.h; sourceTree = "<group>"; };
+		7761358521BBA2C1009B8100 /* YZServerDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZServerDataModel.m; sourceTree = "<group>"; };
+		7767CC7B21CB2E5C0038416B /* pomodoSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pomodoSound.mp3; sourceTree = "<group>"; };
+		779610F721C0B051005E6A72 /* CustomAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAlertView.h; sourceTree = "<group>"; };
+		779610F821C0B051005E6A72 /* CustomAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAlertView.m; sourceTree = "<group>"; };
+		779610FD21C10A95005E6A72 /* YZNetworkManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZNetworkManage.m; sourceTree = "<group>"; };
+		779610FE21C10A95005E6A72 /* YZNetworkManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZNetworkManage.h; sourceTree = "<group>"; };
+		77C3061421C22A4D00C54B95 /* noVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = noVoice.mp3; sourceTree = "<group>"; };
+		77C3061521C22CFB00C54B95 /* YZDirectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZDirectionViewController.h; sourceTree = "<group>"; };
+		77C3061621C22CFB00C54B95 /* YZDirectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZDirectionViewController.m; sourceTree = "<group>"; };
+		77C3061821C22E1F00C54B95 /* help_doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help_doc.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7754D17321B672AC00A06B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7754D18B21B672AE00A06B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7754D19621B672AE00A06B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77110D7F21B9221800E70BCC /* GCDSocket */ = {
+			isa = PBXGroup;
+			children = (
+				7726313721B7DB9800579C88 /* GCDAsyncSocket.h */,
+				7726313821B7DB9800579C88 /* GCDAsyncSocket.m */,
+				7726313621B7DB9800579C88 /* GCDAsyncUdpSocket.h */,
+				7726313921B7DB9800579C88 /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCDSocket;
+			sourceTree = "<group>";
+		};
+		77110DBE21B9248100E70BCC /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				77110DBF21B9248100E70BCC /* AFSecurityPolicy.h */,
+				77110DC021B9248100E70BCC /* AFNetworkReachabilityManager.h */,
+				77110DC121B9248100E70BCC /* AFURLSessionManager.h */,
+				77110DC221B9248100E70BCC /* AFURLRequestSerialization.h */,
+				77110DC321B9248100E70BCC /* AFURLResponseSerialization.m */,
+				77110DC421B9248100E70BCC /* AFHTTPSessionManager.m */,
+				77110DC521B9248100E70BCC /* AFURLResponseSerialization.h */,
+				77110DC621B9248100E70BCC /* AFURLSessionManager.m */,
+				77110DC721B9248100E70BCC /* AFURLRequestSerialization.m */,
+				77110DC821B9248100E70BCC /* AFNetworking.h */,
+				77110DC921B9248100E70BCC /* AFNetworkReachabilityManager.m */,
+				77110DCA21B9248100E70BCC /* AFSecurityPolicy.m */,
+				77110DCB21B9248100E70BCC /* AFCompatibilityMacros.h */,
+				77110DCC21B9248100E70BCC /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		7726312421B75A5100579C88 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7726312521B75AB800579C88 /* UIView+Frame.h */,
+				7726312621B75AB800579C88 /* UIView+Frame.m */,
+				7726312921B768AB00579C88 /* UIColor+PWHex.h */,
+				7726312821B768AB00579C88 /* UIColor+PWHex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7726313421B7DAF000579C88 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				77110DBE21B9248100E70BCC /* AFNetworking */,
+				77110D7F21B9221800E70BCC /* GCDSocket */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		7754D16D21B672AC00A06B41 = {
+			isa = PBXGroup;
+			children = (
+				7754D17821B672AC00A06B41 /* YaZaiTechWifi */,
+				7754D19121B672AE00A06B41 /* YaZaiTechWifiTests */,
+				7754D19C21B672AE00A06B41 /* YaZaiTechWifiUITests */,
+				7754D17721B672AC00A06B41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7754D17721B672AC00A06B41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7754D17621B672AC00A06B41 /* YaZaiTechWifi.app */,
+				7754D18E21B672AE00A06B41 /* YaZaiTechWifiTests.xctest */,
+				7754D19921B672AE00A06B41 /* YaZaiTechWifiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7754D17821B672AC00A06B41 /* YaZaiTechWifi */ = {
+			isa = PBXGroup;
+			children = (
+				7754D17921B672AC00A06B41 /* AppDelegate.h */,
+				7754D17A21B672AC00A06B41 /* AppDelegate.m */,
+				7754D1B821B67EBD00A06B41 /* PrefixHeader.pch */,
+				77C3061821C22E1F00C54B95 /* help_doc.png */,
+				7767CC7B21CB2E5C0038416B /* pomodoSound.mp3 */,
+				77C3061421C22A4D00C54B95 /* noVoice.mp3 */,
+				7761357F21BB6835009B8100 /* song.mp3 */,
+				7726313421B7DAF000579C88 /* Framework */,
+				7754D1BC21B6820C00A06B41 /* Tool */,
+				7754D1AB21B67B1B00A06B41 /* Controller */,
+				7754D1BD21B685D900A06B41 /* Model */,
+				7754D1C421B68CCC00A06B41 /* View */,
+				7726312421B75A5100579C88 /* Category */,
+				7754D17C21B672AC00A06B41 /* ViewController.h */,
+				7754D17D21B672AC00A06B41 /* ViewController.m */,
+				7724B78E21C8C65900AE585D /* Localizable.strings */,
+				7754D17F21B672AC00A06B41 /* Main.storyboard */,
+				7754D18221B672AE00A06B41 /* Assets.xcassets */,
+				7754D18421B672AE00A06B41 /* LaunchScreen.storyboard */,
+				7754D18721B672AE00A06B41 /* Info.plist */,
+				7754D18821B672AE00A06B41 /* main.m */,
+			);
+			path = YaZaiTechWifi;
+			sourceTree = "<group>";
+		};
+		7754D19121B672AE00A06B41 /* YaZaiTechWifiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7754D19221B672AE00A06B41 /* YaZaiTechWifiTests.m */,
+				7754D19421B672AE00A06B41 /* Info.plist */,
+			);
+			path = YaZaiTechWifiTests;
+			sourceTree = "<group>";
+		};
+		7754D19C21B672AE00A06B41 /* YaZaiTechWifiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7754D19D21B672AE00A06B41 /* YaZaiTechWifiUITests.m */,
+				7754D19F21B672AE00A06B41 /* Info.plist */,
+			);
+			path = YaZaiTechWifiUITests;
+			sourceTree = "<group>";
+		};
+		7754D1AB21B67B1B00A06B41 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7754D1B521B67BC800A06B41 /* YZUrienViewController.h */,
+				7754D1B621B67BC800A06B41 /* YZUrienViewController.m */,
+				7754D1AC21B67B3800A06B41 /* YZSleepViewController.h */,
+				7754D1AD21B67B3800A06B41 /* YZSleepViewController.m */,
+				7754D1B221B67B7100A06B41 /* YZSetupViewController.h */,
+				7754D1B321B67B7100A06B41 /* YZSetupViewController.m */,
+				7726312E21B7706500579C88 /* YZWifiConntionViewController.h */,
+				7726312F21B7706500579C88 /* YZWifiConntionViewController.m */,
+				77C3061521C22CFB00C54B95 /* YZDirectionViewController.h */,
+				77C3061621C22CFB00C54B95 /* YZDirectionViewController.m */,
+				772DF35921C773CD00E90DA9 /* YZPolicyViewController.h */,
+				772DF35A21C773CD00E90DA9 /* YZPolicyViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7754D1BC21B6820C00A06B41 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				7754D1B921B681FE00A06B41 /* YZTool.h */,
+				7754D1BA21B681FE00A06B41 /* YZTool.m */,
+				7726313121B79CFB00579C88 /* BLEManage.h */,
+				7726313221B79CFB00579C88 /* BLEManage.m */,
+				779610FE21C10A95005E6A72 /* YZNetworkManage.h */,
+				779610FD21C10A95005E6A72 /* YZNetworkManage.m */,
+				7761358121BB6C58009B8100 /* YZAudioPlayerManage.h */,
+				7761358221BB6C58009B8100 /* YZAudioPlayerManage.m */,
+				779610F721C0B051005E6A72 /* CustomAlertView.h */,
+				779610F821C0B051005E6A72 /* CustomAlertView.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		7754D1BD21B685D900A06B41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7754D1BE21B6862100A06B41 /* Globaldata.h */,
+				7754D1BF21B6862100A06B41 /* Globaldata.m */,
+				7761358421BBA2C1009B8100 /* YZServerDataModel.h */,
+				7761358521BBA2C1009B8100 /* YZServerDataModel.m */,
+				7754D1C121B68C7100A06B41 /* SleepData.h */,
+				7754D1C221B68C7100A06B41 /* SleepData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7754D1C421B68CCC00A06B41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7754D1C621B68CE900A06B41 /* UGDesView.h */,
+				7754D1C521B68CE900A06B41 /* UGDesView.m */,
+				7726312B21B7695C00579C88 /* YZSetupViewCell.h */,
+				7726312C21B7695C00579C88 /* YZSetupViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7754D17521B672AC00A06B41 /* YaZaiTechWifi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7754D1A221B672AE00A06B41 /* Build configuration list for PBXNativeTarget "YaZaiTechWifi" */;
+			buildPhases = (
+				7754D17221B672AC00A06B41 /* Sources */,
+				7754D17321B672AC00A06B41 /* Frameworks */,
+				7754D17421B672AC00A06B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YaZaiTechWifi;
+			productName = YaZaiTechWifi;
+			productReference = 7754D17621B672AC00A06B41 /* YaZaiTechWifi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7754D18D21B672AE00A06B41 /* YaZaiTechWifiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7754D1A521B672AE00A06B41 /* Build configuration list for PBXNativeTarget "YaZaiTechWifiTests" */;
+			buildPhases = (
+				7754D18A21B672AE00A06B41 /* Sources */,
+				7754D18B21B672AE00A06B41 /* Frameworks */,
+				7754D18C21B672AE00A06B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7754D19021B672AE00A06B41 /* PBXTargetDependency */,
+			);
+			name = YaZaiTechWifiTests;
+			productName = YaZaiTechWifiTests;
+			productReference = 7754D18E21B672AE00A06B41 /* YaZaiTechWifiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7754D19821B672AE00A06B41 /* YaZaiTechWifiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7754D1A821B672AE00A06B41 /* Build configuration list for PBXNativeTarget "YaZaiTechWifiUITests" */;
+			buildPhases = (
+				7754D19521B672AE00A06B41 /* Sources */,
+				7754D19621B672AE00A06B41 /* Frameworks */,
+				7754D19721B672AE00A06B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7754D19B21B672AE00A06B41 /* PBXTargetDependency */,
+			);
+			name = YaZaiTechWifiUITests;
+			productName = YaZaiTechWifiUITests;
+			productReference = 7754D19921B672AE00A06B41 /* YaZaiTechWifiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7754D16E21B672AC00A06B41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = homeSalf;
+				TargetAttributes = {
+					7754D17521B672AC00A06B41 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7754D18D21B672AE00A06B41 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7754D17521B672AC00A06B41;
+					};
+					7754D19821B672AE00A06B41 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 7754D17521B672AC00A06B41;
+					};
+				};
+			};
+			buildConfigurationList = 7754D17121B672AC00A06B41 /* Build configuration list for PBXProject "YaZaiTechWifi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 7754D16D21B672AC00A06B41;
+			productRefGroup = 7754D17721B672AC00A06B41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7754D17521B672AC00A06B41 /* YaZaiTechWifi */,
+				7754D18D21B672AE00A06B41 /* YaZaiTechWifiTests */,
+				7754D19821B672AE00A06B41 /* YaZaiTechWifiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7754D17421B672AC00A06B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7754D18621B672AE00A06B41 /* LaunchScreen.storyboard in Resources */,
+				7724B78C21C8C65900AE585D /* Localizable.strings in Resources */,
+				7761358021BB6835009B8100 /* song.mp3 in Resources */,
+				7754D18321B672AE00A06B41 /* Assets.xcassets in Resources */,
+				7767CC7C21CB2E5C0038416B /* pomodoSound.mp3 in Resources */,
+				7754D18121B672AC00A06B41 /* Main.storyboard in Resources */,
+				77C3061921C22E2000C54B95 /* help_doc.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7754D18C21B672AE00A06B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7754D19721B672AE00A06B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7754D17221B672AC00A06B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77355A2F21B9256F0083B1E1 /* AFURLResponseSerialization.m in Sources */,
+				77355A3021B9256F0083B1E1 /* AFHTTPSessionManager.m in Sources */,
+				7761358321BB6C58009B8100 /* YZAudioPlayerManage.m in Sources */,
+				77355A3121B9256F0083B1E1 /* AFURLSessionManager.m in Sources */,
+				779610FF21C10A95005E6A72 /* YZNetworkManage.m in Sources */,
+				77355A3221B9256F0083B1E1 /* AFURLRequestSerialization.m in Sources */,
+				77355A3321B9256F0083B1E1 /* AFNetworkReachabilityManager.m in Sources */,
+				77355A3421B9256F0083B1E1 /* AFSecurityPolicy.m in Sources */,
+				7726313A21B7DB9800579C88 /* GCDAsyncSocket.m in Sources */,
+				7754D17E21B672AC00A06B41 /* ViewController.m in Sources */,
+				7754D1AE21B67B3800A06B41 /* YZSleepViewController.m in Sources */,
+				7754D1C021B6862100A06B41 /* Globaldata.m in Sources */,
+				7761358621BBA2C1009B8100 /* YZServerDataModel.m in Sources */,
+				77C3061721C22CFB00C54B95 /* YZDirectionViewController.m in Sources */,
+				7754D1C721B68CE900A06B41 /* UGDesView.m in Sources */,
+				7726313B21B7DB9800579C88 /* GCDAsyncUdpSocket.m in Sources */,
+				772DF35B21C773CD00E90DA9 /* YZPolicyViewController.m in Sources */,
+				7754D1BB21B681FE00A06B41 /* YZTool.m in Sources */,
+				7754D18921B672AE00A06B41 /* main.m in Sources */,
+				7754D1C321B68C7100A06B41 /* SleepData.m in Sources */,
+				7754D1B421B67B7100A06B41 /* YZSetupViewController.m in Sources */,
+				7726313321B79CFB00579C88 /* BLEManage.m in Sources */,
+				7754D17B21B672AC00A06B41 /* AppDelegate.m in Sources */,
+				779610F921C0B052005E6A72 /* CustomAlertView.m in Sources */,
+				7726312D21B7695D00579C88 /* YZSetupViewCell.m in Sources */,
+				7726313021B7706500579C88 /* YZWifiConntionViewController.m in Sources */,
+				7754D1B721B67BC800A06B41 /* YZUrienViewController.m in Sources */,
+				7726312A21B768AB00579C88 /* UIColor+PWHex.m in Sources */,
+				7726312721B75AB800579C88 /* UIView+Frame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7754D18A21B672AE00A06B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7754D19321B672AE00A06B41 /* YaZaiTechWifiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7754D19521B672AE00A06B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7754D19E21B672AE00A06B41 /* YaZaiTechWifiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7754D19021B672AE00A06B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7754D17521B672AC00A06B41 /* YaZaiTechWifi */;
+			targetProxy = 7754D18F21B672AE00A06B41 /* PBXContainerItemProxy */;
+		};
+		7754D19B21B672AE00A06B41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7754D17521B672AC00A06B41 /* YaZaiTechWifi */;
+			targetProxy = 7754D19A21B672AE00A06B41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7724B78E21C8C65900AE585D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7724B78D21C8C65900AE585D /* en */,
+				7724B78F21C8C65C00AE585D /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7754D17F21B672AC00A06B41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7754D18021B672AC00A06B41 /* Base */,
+				7724B78A21C8C63000AE585D /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7754D18421B672AE00A06B41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7754D18521B672AE00A06B41 /* Base */,
+				7724B78B21C8C63000AE585D /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7754D1A021B672AE00A06B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7754D1A121B672AE00A06B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7754D1A321B672AE00A06B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47W9FMZ53S;
+				GCC_PREFIX_HEADER = "/Users/chengluo/Desktop/芽仔/YaZaiTechWifi/YaZaiTechWifi/PrefixHeader.pch";
+				INFOPLIST_FILE = YaZaiTechWifi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = homeSalf.cn.YaZaiTechWifi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7754D1A421B672AE00A06B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47W9FMZ53S;
+				GCC_PREFIX_HEADER = "/Users/chengluo/Desktop/芽仔/YaZaiTechWifi/YaZaiTechWifi/PrefixHeader.pch";
+				INFOPLIST_FILE = YaZaiTechWifi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = homeSalf.cn.YaZaiTechWifi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7754D1A621B672AE00A06B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47W9FMZ53S;
+				INFOPLIST_FILE = YaZaiTechWifiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = homeSalf.cn.YaZaiTechWifiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YaZaiTechWifi.app/YaZaiTechWifi";
+			};
+			name = Debug;
+		};
+		7754D1A721B672AE00A06B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47W9FMZ53S;
+				INFOPLIST_FILE = YaZaiTechWifiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = homeSalf.cn.YaZaiTechWifiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YaZaiTechWifi.app/YaZaiTechWifi";
+			};
+			name = Release;
+		};
+		7754D1A921B672AE00A06B41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47W9FMZ53S;
+				INFOPLIST_FILE = YaZaiTechWifiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = homeSalf.cn.YaZaiTechWifiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YaZaiTechWifi;
+			};
+			name = Debug;
+		};
+		7754D1AA21B672AE00A06B41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47W9FMZ53S;
+				INFOPLIST_FILE = YaZaiTechWifiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = homeSalf.cn.YaZaiTechWifiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YaZaiTechWifi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7754D17121B672AC00A06B41 /* Build configuration list for PBXProject "YaZaiTechWifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7754D1A021B672AE00A06B41 /* Debug */,
+				7754D1A121B672AE00A06B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7754D1A221B672AE00A06B41 /* Build configuration list for PBXNativeTarget "YaZaiTechWifi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7754D1A321B672AE00A06B41 /* Debug */,
+				7754D1A421B672AE00A06B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7754D1A521B672AE00A06B41 /* Build configuration list for PBXNativeTarget "YaZaiTechWifiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7754D1A621B672AE00A06B41 /* Debug */,
+				7754D1A721B672AE00A06B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7754D1A821B672AE00A06B41 /* Build configuration list for PBXNativeTarget "YaZaiTechWifiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7754D1A921B672AE00A06B41 /* Debug */,
+				7754D1AA21B672AE00A06B41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7754D16E21B672AC00A06B41 /* Project object */;
+}
