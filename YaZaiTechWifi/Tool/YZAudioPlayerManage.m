@@ -12,7 +12,7 @@
 @interface YZAudioPlayerManage()
 
 @property (nonatomic,strong)AVAudioPlayer *audioPlayer;//音频播放器;
-@property (nonatomic,assign) BOOL *isPlay;//是否在播放;
+
 @end
 
 @implementation YZAudioPlayerManage
@@ -29,8 +29,15 @@ static YZAudioPlayerManage *manage = nil;
         NSString *filePath = [[NSBundle mainBundle]pathForResource:@"song" ofType:@"mp3"];
         manage.audioPlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:[NSURL URLWithString:filePath] error:nil];
         manage.audioPlayer.volume = 1.0;
-        manage.audioPlayer.numberOfLoops = 0;
+        manage.audioPlayer.numberOfLoops = -1;
         [manage.audioPlayer prepareToPlay];
+        
+        // 音频会话
+        AVAudioSession *session = [AVAudioSession sharedInstance];
+        // 设置会话类型（播放类型、播放模式,会自动停止其他音乐的播放）
+        [session setCategory:AVAudioSessionCategoryPlayback error:nil];
+        // 激活会话
+        [session setActive:YES error:nil];
 
     });
     return manage;

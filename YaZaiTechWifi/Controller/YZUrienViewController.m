@@ -328,6 +328,8 @@
     
 //    [self initGlobalData];
 //    [self getServerDataWithAFNetworking];
+    
+    [[YZAudioPlayerManage shareInstance]play];
 }
 
 

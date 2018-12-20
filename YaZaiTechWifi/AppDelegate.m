@@ -35,7 +35,7 @@
             NSLog(@"request authorization succeeded!");
         }
     }];
-    [self player];
+//    [self player];
     
     [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
     
@@ -114,7 +114,7 @@
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
     
     /** 播放声音 */
-    [self.player play];
+//    [self.player play];
     
     [self stratBadgeNumberCount];
     [self backgroundMode];
@@ -148,7 +148,7 @@
 }
 
 - (void)applyToSystemForMoreTime {
-    NSLog(@"------applyToSystemForMoreTime");
+    NSLog(@"------applyToSystemForMoreTime:%.1lf",[UIApplication sharedApplication].backgroundTimeRemaining);
     if ([UIApplication sharedApplication].backgroundTimeRemaining < 30.0) {//如果剩余时间小于30秒
         [[UIApplication sharedApplication] endBackgroundTask:self.backgrounTask];
         NSLog(@"------剩余时间小于30秒");
